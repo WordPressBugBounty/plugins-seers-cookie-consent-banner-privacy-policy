@@ -1,0 +1,1 @@
+# plugins-seers-cookie-consent-banner-privacy-policy
