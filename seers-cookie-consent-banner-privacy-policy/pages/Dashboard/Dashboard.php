@@ -125,7 +125,7 @@
     </div> -->
     <div class="seers-cms-dashboard-section-video">
     <iframe width="96%" height="98%" 
-        src="https://www.youtube.com/embed/WbcGhSviCEg?start=7" 
+        src="https://www.youtube.com/embed/GvqbwPNKUQw?si=0l1IwulE27Yilece" 
         title="YouTube video player" 
         frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
