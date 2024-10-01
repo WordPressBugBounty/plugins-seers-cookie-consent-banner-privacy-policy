@@ -10,13 +10,13 @@
 * Plugin Name: Seers Cookie Consent Banner Privacy Policy
 * Plugin URI: https://seersco.com/plugins/wordpress-plugin-installation-of-seers-cookie-consent/
 * Description: Seers cookie consent management platform is trusted by thousands of businesses. Become GDPR, CCPA, ePrivacy and LGPD compliant in three clicks.
-* Version: 9.0.3
+* Version: 9.0.4
 * Author: Seers
 * Author URI: https://seersco.com/
 * Text Domain: Seers-Cookie-Consent-Banner-Privacy-Policy
 * Domain Path: /Languages
- * License: GPLv3 or later
- * License URI: https://www.gnu.org/licenses/gpl-3.0.html
+* License: GPLv3 or later
+* License URI: https://www.gnu.org/licenses/gpl-3.0.html
 **/
 
 /*
