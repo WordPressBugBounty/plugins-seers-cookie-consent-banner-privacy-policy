@@ -4,7 +4,7 @@ Contributors: alexreed2, seersgroup
 Tags: GDPR, CCPA, Cookie Consent, Cookie banner, Cookie popup
 Requires at least: 3.8 or higher
 Tested up to: 6.6.2
-Stable tag: 9.0.4
+Stable tag: 9.1.0
 Requires PHP: 5.3.3
 Author URL: https://seersco.com
 Plugin URL: https://seersco.com/plugins/wordpress-plugin-installation-of-seers-cookie-consent/
@@ -218,6 +218,10 @@ In terms of the CCPA, you must always disclose which cookies you are using, but 
 No, technical compliance capabilities such as automatic script blocking, consent purpose categories, and consent record storage are not available in the plugin-only version. Only the Cookie Compliance integration gives you access to these features.
 
 == Changelog ==
+
+VERSION 9.1.0
+• Youtube video changed with thunbnail
+• Fix popup not loading some scenarios
 
 VERSION 9.0.4
 • Readme add License field

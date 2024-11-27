@@ -123,16 +123,9 @@
              Your browser does not support the video tag.
           </video>
     </div> -->
-    <div class="seers-cms-dashboard-section-video">
-    <iframe width="96%" height="98%" 
-        src="https://www.youtube.com/embed/GvqbwPNKUQw?si=0l1IwulE27Yilece" 
-        title="YouTube video player" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-        allowfullscreen>
-    </iframe>
-
-        </div>    
+    <div class="seers-cms-dashboard-section-video" id="video-placeholder">
+        <img src="<?php echo plugin_dir_url(__FILE__) . '../../images/hqdefault3.png'; ?>" alt="Video Thumbnail" style="width: 96%; height: 98%; cursor: pointer;">
+    </div>    
     </div>
         <div class="seers-cms-dashboard-recent-logs seers-paid-feature-opener" name="recentslogs">
             <p><?php echo __('Recent Consent Logs', $this->textdomain);?><span class="seers-cms-dashboard-general-premium"><?php echo __('PREMIUM', $this->textdomain);?></span></p>
@@ -151,6 +144,21 @@
                 }
             });
         });
+
+        //lazy load youtube video
+        document.addEventListener("DOMContentLoaded", function() {
+            setTimeout(function() {
+                document.getElementById('video-placeholder').innerHTML = `
+                    <iframe width="96%" height="98%"
+                        src="https://www.youtube.com/embed/GvqbwPNKUQw?si=0l1IwulE27Yilece"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen loading="lazy">
+                    </iframe>`;
+            }, 2000);
+        });
+
         // const premiumButton = document.querySelector('.seers-cms-dashboard-spremium');
         // premiumButton.addEventListener('click', () => {
         //     const contentSections = document.querySelectorAll('.content-section');

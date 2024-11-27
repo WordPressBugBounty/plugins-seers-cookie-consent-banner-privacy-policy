@@ -345,10 +345,10 @@ input {
                                                         <input type="checkbox" name="seers_term_condition"
                                                             id="seers_term_condition" value="terms" class="number" checked>
                                                         <?php esc_html_e('I agree Seers',$this->textdomain); ?>
-                                                        <a href="https://seersco.com/terms-and-conditions.html" target="_blank"><?php echo __('Terms & Condition',$this->textdomain);?>
+                                                        <a href="https://seersco.com/terms-conditions/" target="_blank"><?php echo __('Terms & Condition',$this->textdomain);?>
                                                         </a>
                                                         <?php echo __('and',$this->textdomain);?> <a
-                                                            href="https://seersco.com/privacy-policy.html" target="_blank"><?php echo __('Privacy Policy',$this->textdomain); ?></a>,
+                                                            href="https://seersco.com/privacy-policy/" target="_blank"><?php echo __('Privacy Policy',$this->textdomain); ?></a>,
                                                     </div>
                                                     <div class="seers-checkbox">
                                                         <input type="checkbox" name="seers_term_condition_url"
@@ -362,11 +362,11 @@ input {
                                                         <input type="checkbox" name="seers_term_condition"
                                                             id="seers_term_condition" value="terms" class="number">
                                                         <?php esc_html_e('I agree Seers',$this->textdomain); ?>
-                                                        <a href="https://seersco.com/terms-and-conditions.html" target="_blank"><?php esc_html_e('Terms & Condition',$this->textdomain);?>
+                                                        <a href="https://seersco.com/terms-conditions/" target="_blank"><?php esc_html_e('Terms & Condition',$this->textdomain);?>
                                                         </a>
                                                         <?php esc_html_e('and',$this->textdomain);?>
                                                         <a
-                                                            href="https://seersco.com/privacy-policy.html" target="_blank"><?php esc_html_e('Privacy Policy',$this->textdomain); ?></a>,
+                                                            href="https://seersco.com/privacy-policy/" target="_blank"><?php esc_html_e('Privacy Policy',$this->textdomain); ?></a>,
                                                     </div>
                                                     <div class="seers-checkbox">
                                                         <input type="checkbox" name="seers_term_condition_url"
