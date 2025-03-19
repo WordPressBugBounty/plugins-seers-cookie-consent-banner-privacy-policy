@@ -8,11 +8,11 @@
 
 /*
 * Plugin Name: Seers Cookie Consent Banner Privacy Policy
-* Plugin URI: https://seersco.com/plugins/wordpress-plugin-installation-of-seers-cookie-consent/
+* Plugin URI: https://seerssupport.zendesk.com/hc/en-us/articles/11090546128412-Installing-Seers-Plugin-on-WordPress/
 * Description: Seers cookie consent management platform is trusted by thousands of businesses. Become GDPR, CCPA, ePrivacy and LGPD compliant in three clicks.
-* Version: 9.1.0
+* Version: 9.2.0
 * Author: Seers
-* Author URI: https://seersco.com/
+* Author URI: https://seers.ai
 * Text Domain: Seers-Cookie-Consent-Banner-Privacy-Policy
 * Domain Path: /Languages
 * License: GPLv3 or later
@@ -149,7 +149,7 @@ if (!class_exists('SCCBPP_WpCookie_Save')) {
 
         public function seers_premium_upgrade_link($links)
         {
-            $seers_premium_upgrade_link = array('<a href="https://seersco.com/price-plan" target="_blank"><b>' . __('Upgrade Premium', $this->textdomain) . '</b></a>');
+            $seers_premium_upgrade_link = array('<a href="https://seers.ai/price-plan" target="_blank"><b>' . __('Upgrade Premium', $this->textdomain) . '</b></a>');
             return array_merge($seers_premium_upgrade_link, $links);
         }
 

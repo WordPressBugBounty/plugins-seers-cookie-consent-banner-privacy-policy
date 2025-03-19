@@ -362,11 +362,11 @@ input {
                                                         <input type="checkbox" name="seers_term_condition"
                                                             id="seers_term_condition" value="terms" class="number">
                                                         <?php esc_html_e('I agree Seers',$this->textdomain); ?>
-                                                        <a href="https://seersco.com/terms-conditions/" target="_blank"><?php esc_html_e('Terms & Condition',$this->textdomain);?>
+                                                        <a href="https://seers.ai/terms-conditions/" target="_blank"><?php esc_html_e('Terms & Condition',$this->textdomain);?>
                                                         </a>
                                                         <?php esc_html_e('and',$this->textdomain);?>
                                                         <a
-                                                            href="https://seersco.com/privacy-policy/" target="_blank"><?php esc_html_e('Privacy Policy',$this->textdomain); ?></a>,
+                                                            href="https://seers.ai/privacy-policy/" target="_blank"><?php esc_html_e('Privacy Policy',$this->textdomain); ?></a>,
                                                     </div>
                                                     <div class="seers-checkbox">
                                                         <input type="checkbox" name="seers_term_condition_url"
@@ -387,7 +387,7 @@ input {
                                                     value="<?php esc_html_e(get_option('SCCBPP_cookie_consent_id')); ?>"
                                                     readonly>
                                             </label>
-                                            <label class="notice notice-info bold seersinfotext"><?php echo sprintf(__('Important Note: Your domain name without the www and https:// will be used as your password to access the seers <a class="seers-cms-account-link" href="%s" target="_blank">dashboard</a>.',$this->textdomain), 'https://seersco.com/business/dashboard'); ?></label>
+                                            <label class="notice notice-info bold seersinfotext"><?php echo sprintf(__('Important Note: Your domain name without the www and https:// will be used as your password to access the seers <a class="seers-cms-account-link" href="%s" target="_blank">dashboard</a>.',$this->textdomain), 'https://seers.ai'); ?></label>
                                             <input name="SCCBPP_update_setting" type="hidden"
                                                 value="<?php esc_html_e(wp_create_nonce('SCCBPP-cookie-consent')); ?>" />
 

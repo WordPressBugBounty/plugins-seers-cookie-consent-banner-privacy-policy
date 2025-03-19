@@ -9,7 +9,7 @@
 <body> 
     <header>
         <div class="seers-cms-header-logo">
-            <img src="<?php echo plugin_dir_url(__FILE__) . '../images/Seers-logo.png'; ?>" alt="Logo">
+            <img src="<?php echo plugin_dir_url(__FILE__) . '../images/logo-seersai.svg'; ?>" alt="Logo">
         </div>
         <div class="seers-cms-header-nav">
         <?php $site_name = get_bloginfo('name'); ?>

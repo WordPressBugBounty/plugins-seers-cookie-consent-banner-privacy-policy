@@ -31,9 +31,9 @@
         </ul>
         <div class="seers-cms-sidebar-borders">
             <ul class="seers-cms-sidebar-menu seers-cms-sidebar-menu-extras">
-                <li class="seers-cms-sidebar-links"><a href="https://seersco.com/price-plan" target="_blank"><?php esc_html_e('Pricing Plan', $this->textdomain);?></a></li>
+                <li class="seers-cms-sidebar-links"><a href="https://seers.ai/price-plan" target="_blank"><?php esc_html_e('Pricing Plan', $this->textdomain);?></a></li>
                 <li class="seers-cms-sidebar-links"><a href="mailto:support@seersco.com"><?php esc_html_e('Support', $this->textdomain);?></a></li>
-                <li class="seers-cms-sidebar-links"><a href="https://seersco.com/contact/" target="_blank"><?php esc_html_e('Need any help?', $this->textdomain);?></a></li>
+                <li class="seers-cms-sidebar-links"><a href="https://seers.ai/contact/" target="_blank"><?php esc_html_e('Need any help?', $this->textdomain);?></a></li>
             </ul>
         </div>
         <div class="seers-cms-sidebar-footer">

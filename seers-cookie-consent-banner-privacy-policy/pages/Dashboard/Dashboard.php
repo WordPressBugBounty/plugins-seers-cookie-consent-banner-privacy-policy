@@ -124,7 +124,7 @@
           </video>
     </div> -->
     <div class="seers-cms-dashboard-section-video" id="video-placeholder">
-        <img src="<?php echo plugin_dir_url(__FILE__) . '../../images/hqdefault3.png'; ?>" alt="Video Thumbnail" style="width: 96%; height: 98%; cursor: pointer;">
+        <img src="<?php echo plugin_dir_url(__FILE__) . '../../images/youtubethumbnail.jpg'; ?>" alt="Video Thumbnail" style="width: 96%; height: 98%; cursor: pointer;">
     </div>    
     </div>
         <div class="seers-cms-dashboard-recent-logs seers-paid-feature-opener" name="recentslogs">

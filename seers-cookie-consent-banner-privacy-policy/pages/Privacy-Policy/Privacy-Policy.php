@@ -75,7 +75,7 @@
     <form name="policy" id="policy" method="post">
                     <div class="seers-wordpress-plugin-hol seers-tabs-content seers-banner-setting seers-cms-privacy-policy-link-section">
                         <div class="section-setting policysetting">
-                            <p class="seers-notification"><?php echo __('Please create cookies policy page and enter URL below.', $this->textdomain); ?> <a href="https://seersco.com/policy-generator-sales.html" target="_blank"><span class="dashicons dashicons-external"></span></a></p>
+                            <p class="seers-notification"><?php echo __('Please create cookies policy page and enter URL below.', $this->textdomain); ?> <a href="https://seerssupport.zendesk.com/hc/en-us/articles/11151102061084-How-to-create-a-cookie-policy-for-my-website" target="_blank"><span class="dashicons dashicons-external"></span></a></p>
                             <p id="policy_message_success"></p>
                             <p id="policy_message_error"></p>
                             <div class="seers-panel seers-mb-30 seers-cms-policy-link-add">

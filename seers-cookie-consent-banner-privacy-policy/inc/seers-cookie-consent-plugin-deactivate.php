@@ -384,7 +384,7 @@ class SeersCookieConsentPluginDeactivate {
                         </div>
                         <div id="language" style="display: none">
                             <div class="seers_ext_message">
-                                <?php echo __('The banner picks up your website language automatically. You can always sign-in on your Seers account', 'seers-cookie-consent-banner-privacy-policy');?>  <a href="https://seersco.com/" target="_blank">(seersco.com)</a> <?php echo __('and choose the language you like. See the video', 'seers-cookie-consent-banner-privacy-policy');?> <a href="https://youtu.be/sMRZF0vClQU" target="_blank"><?php echo __('here', 'seers-cookie-consent-banner-privacy-policy');?></a>.
+                                <?php echo __('The banner picks up your website language automatically. You can always sign-in on your Seers account', 'seers-cookie-consent-banner-privacy-policy');?>  <a href="https://seers.ai/" target="_blank">(seers.ai)</a> <?php echo __('and choose the language you like. See the video', 'seers-cookie-consent-banner-privacy-policy');?> <a href="https://youtu.be/sMRZF0vClQU" target="_blank"><?php echo __('here', 'seers-cookie-consent-banner-privacy-policy');?></a>.
                              </div>
                         </div>
                         <div class="seers_form-group">
