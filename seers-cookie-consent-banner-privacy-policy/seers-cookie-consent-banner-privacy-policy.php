@@ -10,7 +10,7 @@
 * Plugin Name: Seers Cookie Consent Banner Privacy Policy
 * Plugin URI: https://seerssupport.zendesk.com/hc/en-us/articles/11090546128412-Installing-Seers-Plugin-on-WordPress/
 * Description: Seers cookie consent management platform is trusted by thousands of businesses. Become GDPR, CCPA, ePrivacy and LGPD compliant in three clicks.
-* Version: 9.2.1
+* Version: 9.3.0
 * Author: Seers
 * Author URI: https://seers.ai
 * Text Domain: Seers-Cookie-Consent-Banner-Privacy-Policy
@@ -2726,3 +2726,50 @@ if (!class_exists('SCCBPP_WpCookie_Save')) {
 
 
 }
+function seers_consent_optin_script() {
+    ?>
+    <script>
+    window.wp_consent_type = 'optin';
+
+    document.dispatchEvent(new CustomEvent('wp_consent_type_defined'));
+
+    window.wp = window.wp || {};
+    window.wp.consent = window.wp.consent || (() => {
+      let consentState = {
+        functional: true,
+        analytics: false,
+        marketing: false,
+        personalization: false
+      };
+
+      let listeners = [];
+
+      return {
+        setConsent: (category, value) => {
+          consentState[category] = value;
+          listeners.forEach(cb => cb({ ...consentState }));
+        },
+        getConsent: (category) => {
+          return consentState[category];
+        },
+        hasConsent: (category) => {
+          return !!consentState[category];
+        },
+        onConsentChange: (cb) => {
+          listeners.push(cb);
+        },
+        getConsentState: () => {
+          return { ...consentState };
+        }
+      };
+    })();
+
+    </script>
+    <?php
+}
+add_action('wp_head', 'seers_consent_optin_script', 1); 
+
+
+add_filter('wp_consent_api_registered_' . plugin_basename(__FILE__), '__return_true');
+
+

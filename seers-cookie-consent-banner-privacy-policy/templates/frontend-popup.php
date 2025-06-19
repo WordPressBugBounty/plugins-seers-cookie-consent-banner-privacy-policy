@@ -3987,8 +3987,11 @@ $showbadge = get_option("SCCBPP_cookie_consent_show_badge");
                 }
 
             }
-            
-            
+            setUserConsent({
+            pref: consentobj.Pref,
+            stat: consentobj.stat,
+            market: consentobj.market
+            });            
             //hide current banner
             cmpnsentmodal.classList.remove("seers-cmp-cookie-banner-active");
             cmpnsentmodal.classList.add("seers-cmp-cookie-banner-no-active");
@@ -4123,6 +4126,20 @@ syncSwitches('seers-cmp-cookie-policy-preference-switch', 'seers-cmp-cookie-poli
 syncSwitches('seers-cmp-cookie-policy-statistic-switch', 'seers-cmp-cookie-policy-statistic-switch1', 'seers-cmp-cookie-policy-statistic-switch2');
 
 syncSwitches('seers-cmp-cookie-policy-marketing-switch', 'seers-cmp-cookie-policy-marketing-switch1', 'seers-cmp-cookie-policy-marketing-switch2');
+
+function setUserConsent({ pref, stat, market }) {
+  if (!window.wp?.consent) {
+    console.warn("wp.consent API not available.");
+    return;
+  }
+
+  wp.consent.setConsent('functional', true); 
+  wp.consent.setConsent('analytics', stat);
+  wp.consent.setConsent('marketing', market);
+  wp.consent.setConsent('personalization', pref);
+
+}
+
 
 </script>
 </body>
