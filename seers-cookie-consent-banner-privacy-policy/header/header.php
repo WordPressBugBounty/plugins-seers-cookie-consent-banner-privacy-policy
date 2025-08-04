@@ -15,7 +15,7 @@
         <?php $site_name = get_bloginfo('name'); ?>
 
             <p class="seers-cms-header-dynamic-website"><?php echo $site_name; ?></p>
-            <button class="seers-cms-header-button seers-paid-feature-opener" name="headerpremium"><?php echo __('Get Premium', $this->textdomain);?></button>
+            <button class="seers-cms-header-button seers-paid-feature-opener" data-tab="Preferences" name="headerpremium"><?php echo __('Get More Features', $this->textdomain);?></button>
             <button class="seers-cms-toggle-button">
         <span></span>
         <span></span>

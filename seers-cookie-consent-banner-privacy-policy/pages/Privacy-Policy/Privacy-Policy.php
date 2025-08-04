@@ -10,7 +10,6 @@
     <div style="display: block;">
     <div class="seers-cms-privacy-policy-container">
         <div class="seers-cms-privacy-policy-card">
-            <span class="seers-cms-consent-banner-privacy-premium"><?php echo __('PREMIUM', $this->textdomain);?></span>
             <div class="seers-cms-privacy-policy-card-content">
             <div class="seers-cms-privacy-policy-icon">
                 <svg width="120" height="120" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -40,11 +39,11 @@
                     </svg>
             </div>
             <h2 class="seers-cms-privacy-policy-heading"><?php echo __('Cookie Policy Generator', $this->textdomain);?></h2>
-            <p class="seers-cms-privacy-policy-explaination"><?php echo __('Connect to a Seers Premium account to create a cookie policy and let your users know how your site uses cookies.', $this->textdomain);?></p>
-            <button class="seers-cms-privacy-policy-button seers-paid-feature-opener" name="cookiepolicy"><?php echo __('Connect', $this->textdomain);?></button>
+            <p class="seers-cms-privacy-policy-explaination"><?php echo __('Create a cookie policy for your store to inform users about the cookies you use and how they function. Get started and set it up in minutes.', $this->textdomain);?></p>
+            <button data-tab="Policy" class="seers-cms-privacy-policy-button seers-paid-feature-opener" name="cookiepolicy"><?php echo __('Continue to Setup', $this->textdomain);?></button>
         </div>
     </div>
-    <div class="seers-cms-privacy-policy-card">
+    <!-- <div class="seers-cms-privacy-policy-card">
         <span class="seers-cms-consent-banner-privacy-premium"><?php echo __('PREMIUM', $this->textdomain);?></span>
         <div class="seers-cms-privacy-policy-card-content">
             <div class="seers-cms-privacy-policy-icon">
@@ -69,7 +68,7 @@
             <p class="seers-cms-privacy-policy-explaination"><?php echo __('Sign up for a Seers Premium account to create a privacy policy and let your users know about your website\'s data collection practices.', $this->textdomain);?></p>
             <button class="seers-cms-privacy-policy-button seers-paid-feature-opener" name="privacypolicy"><?php echo __('Sign Up', $this->textdomain);?></button>
         </div>
-    </div>
+    </div> -->
     </div>
     <div class="seers-cms-policy-link-main">
     <form name="policy" id="policy" method="post">

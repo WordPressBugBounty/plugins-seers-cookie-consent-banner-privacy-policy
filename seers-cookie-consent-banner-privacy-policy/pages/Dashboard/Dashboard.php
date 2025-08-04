@@ -114,7 +114,7 @@
         <hr class="seers-cms-dashboard-overview-hr">
         <div class="seers-cms-dashboard-actions">
             <button class="seers-cms-dashboard-btn seers-cms-dashboard-customize"><?php echo __('Customise Banner', $this->textdomain);?></button>
-            <button class="seers-cms-dashboard-btn seers-cms-dashboard-spremium seers-paid-feature-opener" name="dashboardpremium"><?php echo __('Get Premium', $this->textdomain);?></button>
+            <button class="seers-cms-dashboard-btn seers-cms-dashboard-spremium seers-paid-feature-opener" data-tab="Preferences" name="dashboardpremium"><?php echo __('Get More Features', $this->textdomain);?></button>
         </div>
     </div>
     <!-- <div class="seers-cms-dashboard-section-video">
@@ -127,9 +127,9 @@
         <img src="<?php echo plugin_dir_url(__FILE__) . '../../images/youtubethumbnail.jpg'; ?>" alt="Video Thumbnail" style="width: 96%; height: 98%; cursor: pointer;">
     </div>    
     </div>
-        <div class="seers-cms-dashboard-recent-logs seers-paid-feature-opener" name="recentslogs">
-            <p><?php echo __('Recent Consent Logs', $this->textdomain);?><span class="seers-cms-dashboard-general-premium"><?php echo __('PREMIUM', $this->textdomain);?></span></p>
-            <img class="seers-cms-dashboard-recent-logs-img" src="<?php echo plugin_dir_url(__FILE__) . '../../images/down-arrow.png'; ?>" alt="dropdown">
+        <div class="seers-cms-dashboard-recent-logs seers-paid-feature-opener" name="recentslogs" data-tab="Reports" data-subtab="ConsentLog">
+            <p style="cursor: pointer;" class="seers-paid-feature-opener"  data-tab="Reports" data-subtab="ConsentLog"><?php echo __('Recent Consent Logs', $this->textdomain);?></p>
+            <img class="seers-cms-dashboard-recent-logs-img seers-paid-feature-opener"  data-tab="Reports" data-subtab="ConsentLog" src="<?php echo plugin_dir_url(__FILE__) . '../../images/down-arrow.png'; ?>" alt="dropdown">
         </div>
     </div>
     <script>

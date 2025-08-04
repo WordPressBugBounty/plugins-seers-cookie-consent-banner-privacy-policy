@@ -25,11 +25,11 @@
                             </a> -->
                         </span>
                     </span>
-                    <span class="seers-cms-frameworks-premium"><?php echo __('PREMIUM', $this->textdomain);?></span>
+                    
                 </label>
                 
                 <div class="toggle-frameworks">
-                    <div class="toggle-frameworks-switch seers-paid-feature-opener <?php echo ((get_option('SCCBPP_cookie_consent_child_privacy') === true || get_option('SCCBPP_cookie_consent_child_privacy') === 'true') ? "opton" : "" );?>" name="childprivacy"></div>
+                    <div data-tab="Preferences" class="toggle-frameworks-switch seers-paid-feature-opener <?php echo ((get_option('SCCBPP_cookie_consent_child_privacy') === true || get_option('SCCBPP_cookie_consent_child_privacy') === 'true') ? "opton" : "" );?>" name="childprivacy"></div>
                 </div>
             </div>
 
@@ -42,10 +42,10 @@
                             <?php echo __('When enabled, visitors who are using a browser that sends a Do Not Track signal will have their signal automatically applied to their consent settings.', $this->textdomain); ?> 
                         </span>
                     </span>
-                    <span class="seers-cms-frameworks-premium"><?php echo __('PREMIUM', $this->textdomain);?></span>
+                    
                 </label>
                 <div class="toggle-frameworks">
-                    <div class="toggle-frameworks-switch seers-paid-feature-opener <?php echo ((get_option('SCCBPP_do_not_track') === true || get_option('SCCBPP_do_not_track') === 'true') ? 'opton' : ''); ?>" name="donottrack"></div>
+                    <div data-tab="Preferences" class="toggle-frameworks-switch seers-paid-feature-opener <?php echo ((get_option('SCCBPP_do_not_track') === true || get_option('SCCBPP_do_not_track') === 'true') ? 'opton' : ''); ?>" name="donottrack"></div>
                 </div>
             </div>
             <div class="seers-cms-frameworks-setting">
@@ -57,10 +57,10 @@
                             <?php echo __('When enabled, Seers CMP will implement the IAB Global Privacy Platform and IAB EU TCF 2.x Frameworks along with their respective APIs.', $this->textdomain); ?>  
                         </span>
                     </span>
-                    <span class="seers-cms-frameworks-premium"><?php echo __('PREMIUM', $this->textdomain);?></span>
+                    
                 </label>
                 <div class="toggle-frameworks">
-                    <div class="toggle-frameworks-switch seers-paid-feature-opener <?php echo ((get_option('SCCBPP_cookie_consent_iab_tcf') === true || get_option('SCCBPP_cookie_consent_iab_tcf') === 'true') ? 'opton' : ''); ?>" name="iabtcf"></div>
+                    <div data-tab="Preferences" class="toggle-frameworks-switch seers-paid-feature-opener <?php echo ((get_option('SCCBPP_cookie_consent_iab_tcf') === true || get_option('SCCBPP_cookie_consent_iab_tcf') === 'true') ? 'opton' : ''); ?>" name="iabtcf"></div>
                 </div>
             </div>
             <div class="seers-cms-frameworks-setting">
@@ -72,10 +72,10 @@
                             <?php echo __('When enabled, visitors who are using a browser that sends a Do Not Sell Signal will have their signal automatically applied to their consent settings', $this->textdomain); ?> 
                         </span>
                     </span>
-                    <span class="seers-cms-frameworks-premium"><?php echo __('PREMIUM', $this->textdomain);?></span>
+                    
                 </label>
                 <div class="toggle-frameworks">
-                    <div class="toggle-frameworks-switch seers-paid-feature-opener <?php echo ((get_option('SCCBPP_cookie_consent_do_not_sell') === true || get_option('SCCBPP_cookie_consent_do_not_sell') === 'true') ? 'opton' : ''); ?>" name="donotsell"></div>
+                    <div data-tab="Preferences" class="toggle-frameworks-switch seers-paid-feature-opener <?php echo ((get_option('SCCBPP_cookie_consent_do_not_sell') === true || get_option('SCCBPP_cookie_consent_do_not_sell') === 'true') ? 'opton' : ''); ?>" name="donotsell"></div>
                 </div>
             </div>
             <div class="seers-cms-frameworks-setting">
@@ -87,10 +87,10 @@
                             <?php echo __('When enabled, Google Consent Mode V2 for Google Analytics is supported. GCM must be implemented via your Google configuration for this option to function.', $this->textdomain); ?> 
                         </span>
                     </span>
-                    <span class="seers-cms-frameworks-premium"><?php echo __('PREMIUM', $this->textdomain);?></span>
+                    
                 </label>
                 <div class="toggle-frameworks">
-                    <div class="toggle-frameworks-switch seers-paid-feature-opener <?php echo ((get_option('SCCBPP_cookie_consent_google_consent') === true || get_option('SCCBPP_cookie_consent_google_consent') === 'true') ? 'opton' : ''); ?>" name="googleconsent"></div>
+                    <div data-tab="Preferences" class="toggle-frameworks-switch seers-paid-feature-opener <?php echo ((get_option('SCCBPP_cookie_consent_google_consent') === true || get_option('SCCBPP_cookie_consent_google_consent') === 'true') ? 'opton' : ''); ?>" name="googleconsent"></div>
                 </div>
             </div>
             <div class="seers-cms-frameworks-setting">
@@ -102,10 +102,10 @@
                             <?php echo __('Activate FCM API to pause sending pixel signals to Facebook.', $this->textdomain); ?> 
                         </span>
                     </span>
-                    <span class="seers-cms-frameworks-premium"><?php echo __('PREMIUM', $this->textdomain);?></span>
+                    
                 </label>
                 <div class="toggle-frameworks">
-                    <div class="toggle-frameworks-switch seers-paid-feature-opener <?php echo ((get_option('SCCBPP_cookie_consent_facebook_consent') === true || get_option('SCCBPP_cookie_consent_facebook_consent') === 'true') ? 'opton' : ''); ?>" name="facebookconsent"></div>
+                    <div data-tab="Preferences" class="toggle-frameworks-switch seers-paid-feature-opener <?php echo ((get_option('SCCBPP_cookie_consent_facebook_consent') === true || get_option('SCCBPP_cookie_consent_facebook_consent') === 'true') ? 'opton' : ''); ?>" name="facebookconsent"></div>
                 </div>
             </div>
             <div class="seers-cms-frameworks-setting">
@@ -117,10 +117,10 @@
                             <?php echo __('When enabled, visitors who are using a browser or extension that is GPC compliant will have their signal automatically applied to their consent settings.', $this->textdomain); ?> 
                         </span>
                     </span>
-                    <span class="seers-cms-frameworks-premium"><?php echo __('PREMIUM', $this->textdomain);?></span>
+                    
                 </label>
                 <div class="toggle-frameworks">
-                    <div class="toggle-frameworks-switch seers-paid-feature-opener <?php echo ((get_option('SCCBPP_cookie_consent_global_privacy_control') === true || get_option('SCCBPP_cookie_consent_global_privacy_control') === 'true') ? 'opton' : ''); ?>" name="globalprivacycontrol"></div>
+                    <div data-tab="Preferences" class="toggle-frameworks-switch seers-paid-feature-opener <?php echo ((get_option('SCCBPP_cookie_consent_global_privacy_control') === true || get_option('SCCBPP_cookie_consent_global_privacy_control') === 'true') ? 'opton' : ''); ?>" name="globalprivacycontrol"></div>
                 </div>
             </div>
             </div>

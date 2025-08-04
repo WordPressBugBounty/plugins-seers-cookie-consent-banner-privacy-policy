@@ -184,7 +184,13 @@
             <div class="seers-cms-visual-setting-group-res">
                 <p class="seers-cms-visual-heading seers-cms-visual-font-setting"><?php esc_html_e('Banner Text&nbsp; ', $this->textdomain);?><span class="tooltip" data-title="<?php echo __('This text will appear on the banner', $this->textdomain); ?>" style="font-size:20px;"><img class="seers-cms-visuals-info-icon" src="<?php echo plugin_dir_url(__FILE__) . '../../images/info icon.png'; ?>" alt="info-icon"></span></p>
                 <div class="seers-cms-visual-options-res">
-                    <textarea class=" seers-cms-visual-banner-text"><?php if(get_option('SCCBPP_cookie_consent_body_text') && get_option('SCCBPP_cookie_consent_body_text')!=''){ esc_html_e(get_option('SCCBPP_cookie_consent_body_text')); }else{ esc_html_e( "We use cookies to ensure you get the best experience", $this->textdomain);} ?></textarea>
+                    <textarea name="body_text" id="body_text" class="seers-cms-visual-banner-text"><?php 
+                        if (get_option('SCCBPP_cookie_consent_body_text') && get_option('SCCBPP_cookie_consent_body_text') != '') {
+                            echo esc_textarea(get_option('SCCBPP_cookie_consent_body_text'));
+                        } else {
+                            echo esc_textarea(__('We use cookies to personalize content and ads, to provide social media features and to analyze our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you have provided to them or that they have collected from your use of their services. You consent to our cookies if you continue to use our website.', $this->textdomain));
+                        }
+                    ?></textarea>                
                 </div>
             </div>
             <div class="seers-cms-visual-setting-group">
@@ -375,9 +381,9 @@
 
             
             <div class="seers-cms-visual-powered-by">
-                <p class="seers-cms-visual-font-setting"><?php esc_html_e('Powered by Seers &nbsp; ', $this->textdomain);?><span class="tooltip" data-title="<?php echo __('Show or hide powered by Seers on preference centre of banner', $this->textdomain); ?>" style="font-size:20px;"><img class="seers-cms-visuals-info-icon" src="<?php echo plugin_dir_url(__FILE__) . '../../images/info icon.png'; ?>" alt="info-icon"></span><span class="seers-cms-dashboard-premium"><?php esc_html_e('PREMIUM', $this->textdomain);?></span></p>
+                <p class="seers-cms-visual-font-setting"><?php esc_html_e('Powered by Seers &nbsp; ', $this->textdomain);?><span class="tooltip" data-title="<?php echo __('Show or hide powered by Seers on preference centre of banner', $this->textdomain); ?>" style="font-size:20px;"><img class="seers-cms-visuals-info-icon" src="<?php echo plugin_dir_url(__FILE__) . '../../images/info icon.png'; ?>" alt="info-icon"></span></p>
                 <div class="seers-cms-visual-options ">
-                <span class="seers-cms-visual-premium seers-paid-feature-opener" name="seerspoweredby"><?php esc_html_e('APPLY', $this->textdomain);?></span>
+                <span class="seers-cms-visual-premium seers-paid-feature-opener" name="seerspoweredby" data-tab="Visuals"><?php esc_html_e('APPLY', $this->textdomain);?></span>
             </div>
             </div>
         </div>

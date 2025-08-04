@@ -172,6 +172,7 @@ body {
     font-size: 13px;
     color: #333;
     font-weight: bold;
+    margin: 9px 0px 20px;
 }
 
 .seers-cms-dashboard-recent-logs .seers-cms-dashboard-premium {
@@ -186,6 +187,7 @@ body {
 .seers-cms-dashboard-recent-logs-img {
     width: 20px;
     height: 18px;
+    margin-top: 10px;
     margin-left: auto;
     position: relative;
     top: 0cqmin;

@@ -377,7 +377,7 @@ input {
                                                 <?php }?>
                                                 <div class="seers-activate-button "><input class="seers-cms-account-create-butt" type="submit" name="SCCBPP_cookieid"
                                                         id="SCCBPP_cookieid" disabled
-                                                        value="<?php esc_html_e('Create Premium Account',$this->textdomain); ?>"
+                                                        value="<?php esc_html_e('Create Account',$this->textdomain); ?>"
                                                         style="clear: both;"></div>
                                             </div>
                                             <label for="SCCBPP_cookie_consent_id"> <span><?php echo __('Cookie ID',$this->textdomain); ?></span>&nbsp;
@@ -1983,6 +1983,11 @@ btnPosGroupfunc = function() {
 </script>
 
 <script>
+        var seers_cookie_access_token = "<?php echo get_option('SCCBPP_cookie_access_token'); ?>";
+        var domainid = "<?php echo get_option('SCCBPP_cookie_consent_bannerid_2'); ?>";
+        var textbody = "<?php echo get_option('SCCBPP_cookie_consent_body_text'); ?>";
+        var textbodycolr = "<?php echo get_option('SCCBPP_cookie_consent_body_text_color'); ?>";
+
         showPaidpopup = function(ev) {
             ev.preventDefault();
             e = ev || window.event;
@@ -1990,6 +1995,21 @@ btnPosGroupfunc = function() {
             //console.log("Target:" , target);
             //console.log("Target Name:" , target.getAttribute('name'));
             //console.log(target.className);
+            let tabDisplayName = target.getAttribute("data-tab") || "";
+            let subTabDisplayName = target.getAttribute("data-subtab") || "";
+                if (seers_cookie_access_token && seers_cookie_access_token.trim() !== '') {
+                let redirectUrl = "http://app.seersco.com/token/?access_token=" + encodeURIComponent(seers_cookie_access_token) + "&domain_id=" + encodeURIComponent(domainid);
+                if (tabDisplayName) {
+                    console.log('hi',textbody);
+                    console.log('hi',textbodycolr);
+                redirectUrl += "&tab_name=" + encodeURIComponent(tabDisplayName);
+                }
+                if (subTabDisplayName) {
+                redirectUrl += "&sub_tab_name=" + encodeURIComponent(subTabDisplayName);
+                }
+                window.open(redirectUrl, "_blank");
+                return; 
+            }
             gotopriceplan = false;
             seerspopupaccbtn.innerText= "<?php echo __('Account Setup', $this->textdomain);?>";
             

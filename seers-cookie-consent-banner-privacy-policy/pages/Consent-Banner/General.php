@@ -20,9 +20,10 @@
                             <input type="radio" id="gdpr" name="consent" value="gdpr" checked>
                             <label class="seers-cms--general-default" for="gdpr"><?php echo __('GDPR', $this->textdomain); ?><span class="seers-cms-general-tick"></span></label>
                             </li>
-                        <li class="seers-paid-feature-opener" name="regulation">
-                            <input type="radio" id="ccpa" name="consent" value="ccpa" class="seers-paid-feature-opener" name="regulation">
-                            <label for="ccpa" class="seers-paid-feature-opener" name="regulation"><?php echo __('Global Privacy Law ', $this->textdomain); ?><span class="seers-cms-consent-banner-general-premium"><?php echo __('PREMIUM', $this->textdomain); ?></span></label>
+                        <li class="seers-paid-feature-opener" name="regulation" data-tab="Preferences">
+                            <input type="radio" id="ccpa" name="consent" value="ccpa" class="seers-paid-feature-opener" data-tab="Preferences" name="regulation">
+                            <label for="ccpa" class="seers-paid-feature-opener" name="regulation" data-tab="Preferences"><?php echo __('Global Privacy Law ', $this->textdomain); ?></label>
+                            <!-- <label for="ccpa" class="seers-paid-feature-opener" name="regulation"><?php echo __('Global Privacy Law ', $this->textdomain); ?><span class="seers-cms-consent-banner-general-premium"><?php echo __('PREMIUM', $this->textdomain); ?></span></label> -->
                         </li>
                     </ul>
                 </div>
@@ -37,9 +38,9 @@
                             <input type="radio" id="english" name="language" value="english" checked>
                             <label class="seers-cms--general-default" for="english"><?php echo __('English', $this->textdomain); ?><span class="seers-cms-general-tick"></span></label>
                         </li>
-                        <li  class="seers-paid-feature-opener" name="regulation">
-                            <input type="radio" id="add-other" name="language" value="add-other"  class="seers-paid-feature-opener" name="regulation">
-                            <label for="add-other" class="seers-paid-feature-opener" name="regulation"><?php echo __('Add Other ', $this->textdomain); ?><span class="seers-cms-consent-banner-general-premium"><?php echo __('PREMIUM', $this->textdomain); ?></span></label>
+                        <li  class="seers-paid-feature-opener" name="regulation" data-tab="BannerContent">
+                            <input type="radio" id="add-other" name="language" value="add-other"  class="seers-paid-feature-opener" name="regulation" data-tab="BannerContent">
+                            <label for="add-other" class="seers-paid-feature-opener" name="regulation" data-tab="BannerContent"><?php echo __('Add Other ', $this->textdomain); ?></label>
                         </li>
                         <!-- <li class="seers-paid-feature-opener" name="regulation">
                             <input type="radio" id="auto-detect" name="language" value="auto-detect" class="seers-paid-feature-opener" name="regulation">
@@ -54,29 +55,29 @@
         <div class="seers-cms-consent-banner-general-geo-target-section">
             <label class="seers-cms-consent-banner-general-geo-target-section-heading"><?php echo __('Geo-target Location (Regional)', $this->textdomain); ?></label>
             <div class="seers-cms-consent-banner-general-radio-group">
-                <label class="seers-paid-feature-opener" name="regulation">
-                    <input class="seers-paid-feature-opener" name="regulation" type="radio" name="geo-target" value="worldwide"><?php echo __(' Worldwide', $this->textdomain); ?><span class="seers-cms-consent-banner-general-premium"><?php echo __('PREMIUM', $this->textdomain); ?></span>
+                <label class="seers-paid-feature-opener" name="regulation" data-tab="ByRegion">
+                    <input class="seers-paid-feature-opener"  data-tab="ByRegion" name="regulation" type="radio" name="geo-target" value="worldwide"><?php echo __(' Worldwide', $this->textdomain); ?>
                 </label>
-                <label class="seers-paid-feature-opener" name="regulation">
-                    <input class="seers-paid-feature-opener" name="regulation" type="radio" name="geo-target" value="uk-eu"><?php echo __(' UK & EU Countries', $this->textdomain); ?><span class="seers-cms-consent-banner-general-premium"><?php echo __('PREMIUM', $this->textdomain); ?></span>
+                <label class="seers-paid-feature-opener" name="regulation"  data-tab="ByRegion">
+                    <input class="seers-paid-feature-opener"  data-tab="ByRegion" name="regulation" type="radio" name="geo-target" value="uk-eu"><?php echo __(' UK & EU Countries', $this->textdomain); ?>
                 </label>
-                <label class="seers-paid-feature-opener" name="regulation">
-                    <input class="seers-paid-feature-opener" name="regulation" type="radio" name="geo-target" value="auto"><?php echo __(' Auto Regional Detection', $this->textdomain); ?><span class="seers-cms-consent-banner-general-premium"><?php echo __('PREMIUM', $this->textdomain); ?></span>
+                <label class="seers-paid-feature-opener" name="regulation"  data-tab="ByRegion">
+                    <input class="seers-paid-feature-opener" data-tab="ByRegion" name="regulation" type="radio" name="geo-target" value="auto"><?php echo __(' Auto Regional Detection', $this->textdomain); ?>
                 </label>
-                <label class="seers-paid-feature-opener" name="regulation">
-                    <input class="seers-paid-feature-opener" name="regulation" type="radio" name="geo-target" value="other-countries"><?php echo __(' Other Countries', $this->textdomain); ?><span class="seers-cms-consent-banner-general-premium"><?php echo __('PREMIUM', $this->textdomain); ?></span>
+                <label class="seers-paid-feature-opener" name="regulation" data-tab="ByRegion">
+                    <input class="seers-paid-feature-opener" data-tab="ByRegion" name="regulation" type="radio" name="geo-target" value="other-countries"><?php echo __(' Other Countries', $this->textdomain); ?>
                 </label>
             </div>
         </div>
-        <div class="seers-cms-appearance-settings-setting seers-cms-general-language-auto">
-                <label for="language-auto-regional-detection"><?php echo __('Language Auto Regional Detection ', $this->textdomain); ?><span class="tooltiphtml" style="font-size:20px;">
-                        <span><img class="seers-cms-frameworks-info-icon" src="<?php echo plugin_dir_url(__FILE__) . '../../images/info icon.png'; ?>" alt="info-icon"></span>
-                        <span class="tooltiptext">
+        <div class="seers-cms-appearance-settings-setting seers-cms-general-language-auto" data-tab="Preferences">
+                <label for="language-auto-regional-detection"  data-tab="Preferences"><?php echo __('Language Auto Regional Detection ', $this->textdomain); ?><span class="tooltiphtml" style="font-size:20px;">
+                        <span><img class="seers-cms-frameworks-info-icon"  data-tab="Preferences" src="<?php echo plugin_dir_url(__FILE__) . '../../images/info icon.png'; ?>" alt="info-icon"></span>
+                        <span class="tooltiptext"  data-tab="Preferences">
                             <?php echo __('Turn on to automatically detect the language of banner according to region', $this->textdomain); ?> 
                         </span>
-                    </span><span class="seers-cms-appearance-settings-premium"><?php echo __('PREMIUM', $this->textdomain); ?></span></label>
+                    </span></label>
                 <div class="seers-cms-appearance-settings-input-field ">
-                <input type="checkbox" id="language-auto-regional-detection" class="seers-paid-feature-opener seers-cms-general-language-auto-toggle" name="languageautoregionaldetection">
+                <input type="checkbox" id="language-auto-regional-detection" class="seers-paid-feature-opener seers-cms-general-language-auto-toggle" data-tab="Preferences" name="languageautoregionaldetection">
             </div>
             </div>
             <div class="seers-cms-consent-banner-general-buttons">

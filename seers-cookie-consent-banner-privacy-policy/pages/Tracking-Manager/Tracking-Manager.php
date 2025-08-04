@@ -26,11 +26,11 @@
         </div>
         <div class="seers-cms-tracking-manager-showing-flex">
         <div class="seers-cms-tracking-manager-content">
-            <h2><?php echo __('Unlock Premium Features', $this->textdomain);?></h2>
-            <p><?php echo __('Enter your email below to access premium features! As a premium user, you can manage all the settings from the web app.', $this->textdomain);?></p>
+            <h2><?php echo __('Enable Tracking Manager', $this->textdomain);?></h2>
+            <p><?php echo __('Instantly scan your store, detect all third-party scripts, and take control of what runs — all with Tracking Manager, built for effortless compliance. ', $this->textdomain);?></p>
             <div class="seers-cms-tracking-manager-input-group">
                 <!-- <input type="email" placeholder="mailto@email.com"> -->
-                <button class="seers-cms-tracking-submit seers-paid-feature-opener" name="trackingmanager"><?php echo __('Get Premium', $this->textdomain);?></button>
+                <button class="seers-cms-tracking-submit seers-paid-feature-opener" data-tab="TrackingManager" name="trackingmanager"><?php echo __('Get this feature', $this->textdomain);?></button>
             </div>
         </div>
         <div class="seers-cms-tracking-manager-image">

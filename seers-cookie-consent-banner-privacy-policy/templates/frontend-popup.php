@@ -567,6 +567,8 @@
             -moz-flex-align: center;
             -ms-flex-align: center;
             align-items: center;
+            background: <?php if(get_option('SCCBPP_cookie_consent_banner_bg_color') && get_option('SCCBPP_cookie_consent_banner_bg_color')!=''){ echo(get_option('SCCBPP_cookie_consent_banner_bg_color')); }else{ echo "#fff"; }?>;
+
         }
         
         .rtl .seers-cmp-cookie-policy-default-banner .seers-cmp-cookie-policy-default-banner-content .seers-cmp-cookie-policy-default-banner-footer .seers-cmp-cookie-policy-power-by {
@@ -806,6 +808,8 @@
             height: calc(100vh - 200px);
             overflow-y: auto;
             padding: 20px;
+             <?php if(get_option('SCCBPP_cookie_consent_body_text_color') && get_option('SCCBPP_cookie_consent_body_text_color')!=''){ echo ("color: " . get_option('SCCBPP_cookie_consent_body_text_color') . " !important;"); }else{ echo ""; }?>
+            <?php if(get_option('SCCBPP_cookie_consent_font_style') && get_option('SCCBPP_cookie_consent_font_style')!='' && get_option('SCCBPP_cookie_consent_font_style')!='inherit'){ echo ("font-family: \"" . get_option('SCCBPP_cookie_consent_font_style') . "\" !important;"); }else{ echo ""; }?>
         }
         /*start style seers-cmp-cookie-detail-hol */
         
@@ -996,6 +1000,8 @@
             display: inline-block;
             margin: 0 0 15px 0 !important;
             cursor: default;
+                        <?php if(get_option('SCCBPP_cookie_consent_font_size') && get_option('SCCBPP_cookie_consent_font_size')!=''){ echo ("font-size: " . get_option('SCCBPP_cookie_consent_font_size') . "px !important;"); }else{ echo ("font-size: " . $this->defaultfontsize . "px !important;"); }?>
+
         }
         
         .seers-cmp-cookie-policy-default-banner .seers-cmp-cookie-policy-default-banner-content .seers-cmp-cookie-policy-default-banner-body-text .seers-cmp-policy-banner-read-cookie svg {
@@ -1175,6 +1181,8 @@
             visibility: visible;
             z-index: auto;
             box-shadow: none;
+             <?php if(get_option('SCCBPP_cookie_consent_body_text_color') && get_option('SCCBPP_cookie_consent_body_text_color')!=''){ echo ("color: " . get_option('SCCBPP_cookie_consent_body_text_color') . " !important;"); }else{ echo ""; }?>
+            <?php if(get_option('SCCBPP_cookie_consent_font_style') && get_option('SCCBPP_cookie_consent_font_style')!='' && get_option('SCCBPP_cookie_consent_font_style')!='inherit'){ echo ("font-family: \"" . get_option('SCCBPP_cookie_consent_font_style') . "\" !important;"); }else{ echo ""; }?>
         }
         
         .seers-cmp-cookie-data-hol .seers-cmp-banner-bar .seers-cmp-policy-title {
@@ -1411,8 +1419,7 @@
             font-weight: 500;
             font-size: 14px;
             color: #3B6EF8;
-            border: 1px solid #c1c1c1 !important;
-            border: none;
+            border: 1px solid #3b6ef8;
             padding: 7px 15px !important;
             line-height: 1.5em !important;
             white-space: nowrap;
@@ -1424,6 +1431,10 @@
             cursor: pointer;
             border-radius: 4px;
             -webkit-border-radius: 4px;
+             <?php if(get_option('SCCBPP_cookie_consent_preferences_btn_color') && get_option('SCCBPP_cookie_consent_preferences_btn_color')!=''){ echo("background: " . get_option('SCCBPP_cookie_consent_preferences_btn_color') . ";"); }else{ echo ""; }?>
+            <?php if(get_option('SCCBPP_cookie_consent_preferences_text_color') && get_option('SCCBPP_cookie_consent_preferences_text_color')!=''){ echo("color: " . get_option('SCCBPP_cookie_consent_preferences_text_color') . ";"); }else{ echo ""; }?>
+            <?php if(get_option('SCCBPP_cookie_consent_preferences_text_color') && get_option('SCCBPP_cookie_consent_preferences_text_color')!=''){ echo("border: 1px solid" . get_option('SCCBPP_cookie_consent_preferences_text_color') . ";"); }else{ echo ""; }?>
+            <?php if(get_option('SCCBPP_cookie_consent_font_size') && get_option('SCCBPP_cookie_consent_font_size')!=''){ echo ("font-size: " . get_option('SCCBPP_cookie_consent_font_size') . "px !important;"); }else{ echo ("font-size: " . $this->defaultfontsize . "px !important;"); }?>
         }
         
         .seers-cmp-cookie-data-hol .seers-cmp-banner-bar .seers-cmp-cookie-policy-btn-hol .seers-cmp-btn,
@@ -1556,6 +1567,7 @@
             -ms-transition-duration: .5s;
             -o-transition-duration: .5s;
             transition-duration: .5s;
+            background: <?php if(get_option('SCCBPP_cookie_consent_banner_bg_color') && get_option('SCCBPP_cookie_consent_banner_bg_color')!=''){ echo(get_option('SCCBPP_cookie_consent_banner_bg_color')); }else{ echo "#fff"; }?>;
         }
         
         .seers-cmp-overlay.seers-cmp-overlay-active {
@@ -1580,6 +1592,8 @@
             color: #3B6EF8;
             font-weight: bold;
             z-index: 99;
+            <?php if(get_option('SCCBPP_cookie_consent_agree_btn_color') && get_option('SCCBPP_cookie_consent_agree_btn_color')!=''){ echo("color: " . get_option('SCCBPP_cookie_consent_agree_btn_color') . ";"); }else{ echo ""; }?>
+            <?php if(get_option('SCCBPP_cookie_consent_font_style') && get_option('SCCBPP_cookie_consent_font_style')!='' && get_option('SCCBPP_cookie_consent_font_style')!='inherit'){ echo ("font-family: \"" . get_option('SCCBPP_cookie_consent_font_style') . "\" !important;"); }else{ echo ""; }?>
         }
         /*scrollbar style*/
         
@@ -1648,6 +1662,8 @@
             font-weight: bold;
             cursor: pointer;
             position: relative;
+            <?php if(get_option('SCCBPP_cookie_consent_agree_btn_color') && get_option('SCCBPP_cookie_consent_agree_btn_color')!=''){ echo("background: " . get_option('SCCBPP_cookie_consent_agree_btn_color') . ";"); }else{ echo ""; }?>
+            <?php if(get_option('SCCBPP_cookie_consent_agree_text_color') && get_option('SCCBPP_cookie_consent_agree_text_color')!=''){ echo("color: " . get_option('SCCBPP_cookie_consent_agree_text_color') . ";"); }else{ echo ""; }?>
             <?php if(get_option('SCCBPP_cookie_consent_font_size') && get_option('SCCBPP_cookie_consent_font_size')!=''){ echo ("font-size: " . (get_option('SCCBPP_cookie_consent_font_size') + 1) . "px !important;"); }else{ echo ("font-size: " . ($this->defaultfontsize + 1) . "px !important;"); }?>
             color: #555;
             vertical-align: middle;
@@ -1765,6 +1781,8 @@
             -ms-transform: translateY(-50%);
             -o-transform: translateY(-50%);
             transform: translateY(-50%);
+            <?php if(get_option('SCCBPP_cookie_consent_agree_btn_color') && get_option('SCCBPP_cookie_consent_agree_btn_color')!=''){ echo("background: " . get_option('SCCBPP_cookie_consent_agree_btn_color') . ";"); }else{ echo ""; }?>
+            <?php if(get_option('SCCBPP_cookie_consent_agree_text_color') && get_option('SCCBPP_cookie_consent_agree_text_color')!=''){ echo("color: " . get_option('SCCBPP_cookie_consent_agree_text_color') . ";"); }else{ echo ""; }?>            <?php if(get_option('SCCBPP_cookie_consent_font_style') && get_option('SCCBPP_cookie_consent_font_style')!='' && get_option('SCCBPP_cookie_consent_font_style')!='inherit'){ echo ("font-family: \"" . get_option('SCCBPP_cookie_consent_font_style') . "\" !important;"); }else{ echo ""; }?>
         }
         
         .seers-cmp-cookie-policy-accordion-tab-label::after{
@@ -1783,7 +1801,9 @@
         
         
         .seers-cmp-cookie-policy-accordion-tab input.seers-cmp-cookie-policy-accordion-check:checked+.seers-cmp-cookie-policy-accordion-tab-label {
-            color: #3b6ef8 !important;
+            color: #3b6ef8;
+            <?php if(get_option('SCCBPP_cookie_consent_body_text_color') && get_option('SCCBPP_cookie_consent_body_text_color')!=''){ echo ("color: " . get_option('SCCBPP_cookie_consent_body_text_color') . " !important;"); }else{ echo ""; }?>
+            <?php if(get_option('SCCBPP_cookie_consent_font_style') && get_option('SCCBPP_cookie_consent_font_style')!='' && get_option('SCCBPP_cookie_consent_font_style')!='inherit'){ echo ("font-family: \"" . get_option('SCCBPP_cookie_consent_font_style') . "\" !important;"); }else{ echo ""; }?>
         }
         
         .seers-cmp-cookie-policy-accordion-tab input.seers-cmp-cookie-policy-accordion-check:checked+.seers-cmp-cookie-policy-accordion-tab-label::after {
@@ -2062,7 +2082,7 @@
         }
         
         span.seers-cmp-cookie-policy-always-active {
-            color: var(--link-color) !important;
+            <?php if(get_option('SCCBPP_cookie_consent_agree_btn_color') && get_option('SCCBPP_cookie_consent_agree_btn_color')!=''){ echo("color: " . get_option('SCCBPP_cookie_consent_agree_btn_color') . ";"); }else{ echo ""; }?>
         }
         /*switch button*/
         
@@ -2366,6 +2386,8 @@
             -ms-transform: translateY(-50%) !important;
             -o-transform: translateY(-50%) !important;
             transform: translateY(-50%) !important;
+                        <?php if(get_option('SCCBPP_cookie_consent_font_size') && get_option('SCCBPP_cookie_consent_font_size')!=''){ echo ("font-size: " . get_option('SCCBPP_cookie_consent_font_size') . "px !important;"); }else{ echo ("font-size: " . $this->defaultfontsize . "px !important;"); }?>
+
         }
         .seers-cmp-cookie-policy-always-active-universal {
             color: rgb(85, 85, 85) !important;

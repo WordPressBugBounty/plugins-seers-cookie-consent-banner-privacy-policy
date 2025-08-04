@@ -27,11 +27,11 @@
         </div>
         <div class="seers-cms-reports-showing-flex">
         <div class="seers-cms-reports-content">
-            <h2><?php esc_html_e('Unlock Premium Features', $this->textdomain);?></h2>
-            <p><?php esc_html_e('Enter your email below to access premium features! As a premium user, you can manage all the settings from the web app.', $this->textdomain);?></p>
+            <h2><?php esc_html_e('Website Scan Report', $this->textdomain);?></h2>
+            <p><?php esc_html_e('Get a full report on the types of cookies your store uses, and how risky or sensitive they are for compliance.', $this->textdomain);?></p>
             <div class="seers-cms-reports-input-group">
                 <!-- <input type="email" placeholder="mailto@email.com"> -->
-                <button class="seers-cms-reports-input-group button seers-paid-feature-opener" name="reports"><?php esc_html_e('Get Premium', $this->textdomain);?></button>
+                <button data-tab="Reports" class="seers-cms-reports-input-group button seers-paid-feature-opener" name="reports"><?php esc_html_e('Scan Website Now', $this->textdomain);?></button>
             </div>
         </div>
         <div class="seers-cms-reports-image">

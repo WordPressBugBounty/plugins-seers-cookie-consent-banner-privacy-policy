@@ -18,7 +18,7 @@
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    width: 45%;
+    width: 60%;
     margin-top: 35px;
     padding-top: 12px;
     height: fit-content;
@@ -64,7 +64,7 @@
     cursor: pointer;
     font-size: 14px;
     font-weight: bold;
-    width: 120px;
+    /* width: 120px; */
     border-radius: 10px;
 
 }
@@ -82,7 +82,7 @@
     margin-left: 18px;
 }
 .seers-cms-policy-link-main {
-    width: 94%;
+    width: 60%;
     margin: auto;
 }
 .seers-cms-privacy-policy-link-section {

@@ -87,9 +87,9 @@
                         <span class="tooltiptext">
                             <?php echo __('Manage Badge Customization', $this->textdomain); ?> 
                         </span>
-                    </span><span class="seers-cms-appearance-settings-premium"><?php echo __('PREMIUM', $this->textdomain);?></span></label>
+                    </span></label>
                 <div class="seers-cms-appearance-settings-input-field">
-                <input type="checkbox" id="manage-badge-customization" class="seers-paid-feature-opener" name="managebadgecustomization">
+                <input type="checkbox" data-tab="Visuals" id="manage-badge-customization" class="seers-paid-feature-opener" name="managebadgecustomization">
             </div>
             </div>
             <div class="seers-cms-appearance-settings-setting">
@@ -98,9 +98,9 @@
                         <span class="tooltiptext">
                             <?php echo __('Turn on to record the consent of users', $this->textdomain); ?> 
                         </span>
-                    </span><span class="seers-cms-appearance-settings-premium"><?php echo __('PREMIUM', $this->textdomain);?></span></label>
+                    </span></label>
                 <div class="seers-cms-appearance-settings-input-field">
-                <input type="checkbox" id="record-consent" class="seers-paid-feature-opener" name="recordconsent">
+                <input type="checkbox" data-tab="Reports" id="record-consent" class="seers-paid-feature-opener" name="recordconsent">
             </div>
             </div>
             <div class="seers-cms-appearance-settings-setting">
@@ -109,9 +109,9 @@
                         <span class="tooltiptext">
                             <?php echo __('Covers all subdomain under the selected domain', $this->textdomain); ?> 
                         </span>
-                    </span><span class="seers-cms-appearance-settings-premium"><?php echo __('PREMIUM', $this->textdomain);?></span></label>
+                    </span></label>
                 <div class="seers-cms-appearance-settings-input-field ">
-                <input type="checkbox" id="sub-domain-setting" class="seers-paid-feature-opener" name="subdomain">
+                <input type="checkbox" data-tab="Preferences" id="sub-domain-setting" class="seers-paid-feature-opener" name="subdomain">
             </div>
             </div>
             <div class="seers-cms-appearance-settings-setting">
