@@ -1,7 +1,7 @@
 === Seers Ai | Consent Management Platform (Easy to set up GDPR/CCPA Compliant Cookie Consent)===
 Seers: https://seers.ai
 Contributors: alexreed2, seersgroup
-Tags: GDPR, CCPA, Cookie Consent, Cookie banner, Cookie popup, Global Data Privacy Laws, AI-Powered Configuration
+Tags: GDPR, CCPA, Cookie Consent, Cookie banner, AI-Powered Configuration
 Requires at least: 3.8 or higher
 Tested up to: 6.8.1
 Stable tag: 9.4.1
@@ -56,7 +56,7 @@ Seers AI keeps your website compliant with 150+ Global data privacy laws, includ
 
 For support and queries, you may contact us at support@seersco.com 
 
-== FAQs ==
+== Frequently Asked Questions ==
 
 = The Cookie Banner is not displaying?
 
