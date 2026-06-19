@@ -3,8 +3,8 @@ Seers: https://seers.ai
 Contributors: alexreed2, seersgroup
 Tags: GDPR, CCPA, Cookie Consent, Cookie banner, AI-Powered Configuration
 Requires at least: 3.8 or higher
-Tested up to: 6.8.1
-Stable tag: 9.4.1
+Tested up to: 7.0.0
+Stable tag: 9.4.2
 Requires PHP: 5.3.3
 Author URL: https://seers.ai
 Plugin URL: https://seerssupport.zendesk.com/hc/en-us/articles/11090546128412-Installing-Seers-Plugin-on-WordPress/
@@ -107,6 +107,9 @@ In terms of the CCPA, you must always disclose which cookies you are using, but 
 No, technical compliance capabilities such as automatic script blocking, consent purpose categories, and consent record storage are not available in the plugin-only version. Only the Cookie Compliance integration gives you access to these features.
 
 == Changelog ==
+
+VERSION 9.4.2
+• Tested on WordPress version 7.0.0
 
 VERSION 9.4.1
 • Update readme and banner image of plugin page
