@@ -1,10 +1,10 @@
-=== Seers Ai | Consent Management Platform (Easy to set up GDPR/CCPA Compliant Cookie Consent)===
+=== Seers AI | Cookie Consent Banner - GDPR & CCPA Compliant Consent Management Platform  ===
 Seers: https://seers.ai
 Contributors: alexreed2, seersgroup
-Tags: GDPR, CCPA, Cookie Consent, Cookie banner, AI-Powered Configuration
+Tags: GDPR, CCPA, Cookie Consent, Cookie banner, Cookie popup
 Requires at least: 3.8 or higher
-Tested up to: 7.0.0
-Stable tag: 9.4.2
+Tested up to: 7.0.2
+Stable tag: 9.4.4
 Requires PHP: 5.3.3
 Author URL: https://seers.ai
 Plugin URL: https://seerssupport.zendesk.com/hc/en-us/articles/11090546128412-Installing-Seers-Plugin-on-WordPress/
@@ -13,100 +13,234 @@ License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 
-Smart, AI-powered 1-click setup to comply with GDPR, CCPA, TIPA, MCDPA, DUA and global data privacy laws. Simple, effective, and future-ready. 
+Free cookie consent banner & cookie notice plugin for GDPR, CCPA & global cookie compliance. Cookie scanner + Google Consent Mode v2 ready.
 
 
 == Description ==
 
-Seers Ai is an AI-powered consent management solution for GDPR, CCPA, DUA, and global data privacy laws. This free cookie consent plugin offers 1-click WordPress integration, customisable cookie banners & cookie notice, making compliance effortless, fast, and reliable. 
+Seers Cookie Consent Banner is a free GDPR cookie consent plugin and consent management platform (CMP) for WordPress. Add a fully customisable cookie consent banner, cookie notice and cookie preference centre to your site in under 5 minutes - with automatic cookie scanning, prior-consent cookie blocking, Google Consent Mode v2 and Microsoft UET Consent Mode, IAB TCF v2.2, and a built-in privacy policy and cookie policy generator. Trusted for GDPR cookie consent, CCPA / CPRA cookie compliance, LGPD, UK GDPR, ePrivacy and other global data privacy laws.
+
+The Seers AI Cookie Consent WordPress Plugin is one of the best plugins for **GDPR Compliance** that has features stated below:
 
 https://www.youtube.com/watch?v=GvqbwPNKUQw
 
-== KEY FEATURES ==
+== Why choose Seers Cookie Consent Banner? ==
 
-**AI-Generated Cookie Banners**
-- 1-click auto-generated consent text & privacy link insertion.
-- Customisable design: fonts, colours, brand logo, styles & banner position.
-- Includes “Do Not Sell/CCPA” option for user rights.
+- 1-click WordPress install - cookie banner live in minutes, no code.
+- Automatic cookie scanner that detects and categorises every cookie and tracker on your site.
+- Prior-consent cookie blocking - non-essential cookies stay blocked until the visitor accepts.
+- Accept All / Reject All / Granular preference centre — fully GDPR-valid choice architecture.
+- AI-assisted cookie banner generator: brand colours, logo, fonts, layout and position.
+- Auto-translates the cookie banner into 28+ languages based on the visitor's browser settings.
+- Geo-aware: detects visitor region and shows the correct GDPR / CCPA / LGPD cookie notice.
+- Consent log export (CSV) for audit and proof of consent.
+- Free forever for standard use - paid plans only unlock advanced enterprise features.
 
-**AI-Driven Region & Language Detection**
-- Auto-detection of visitor region with tailored compliance banners.
-- Instantly translates into 28+ languages based on browser settings.
 
-**Real-Time Consent Control & Logs**
-- Dynamic consent management aligned with each user’s preferences.
-- Automatic consent logs maintained to meet audit & compliance needs. 
+**Cookie Consent Features**
 
-**Seamless Frameworks Integrations**  
-- 1-click integration with Google Consent Mode v2 and Microsoft Consent Mode, fully compatible with Google Analytics, Google Tag Manager, and ad platforms.
-- Seamless WordPress API integration; drop it in, no manual setup, and instant compliance.
-- Built to work with IAB Europe Transparency & Consent Framework (TCF v2.2), Global Privacy Control (GPC), and other privacy frameworks, keeping you aligned across ecosystems.
-- Extends to major platforms: Shopify, Magento, Drupal, etc. 
+- Cookie Consent Banner: Accept, Reject, and Preferences buttons with full WCAG 2.1 AA accessibility.
+- Cookie Notice Layouts: Top bar, bottom bar, box, modal, or floating tooltip.
+- Cookie Preference Centre: Lets users opt in or out by category (necessary, analytics, marketing, functional).
+- Revisit Consent Button: A floating widget so users can update consent anytime.
+- Do Not Sell or Share My Personal Information link for California CCPA / CPRA compliance.
+- Global Privacy Control (GPC) signal support.
+
+
+**Cookie Banner Customisation**
+
+- Customise your cookie banner according to your requirements. 
+    1. We have options of font style and sizes available.
+    2. A huge colour palette to match the colour of your website’s theme
+    3. Different banner styles are built to provide options.
+    4. Position of cookie banner for your website
+- You can do badge customisation by adding your own image on badge.
+- For your branding, you can add your own logo to increase your brand’s visibility.
+
+**Cookie Scanner & Cookie Policy**
+
+- Automatic cookie scanner crawls your site and lists every first-party and third-party cookie.
+- Manual cookie editor — add, edit, or remove cookies and categories.
+- Auto-generated cookie policy page tailored to the cookies your site actually uses.
+- An auto-generated privacy policy template you can customise for your business.
+
+**Framework & Platform Integrations**
+
+***Consent Frameworks***
+
+- Google Consent Mode v2 — 1-click integration with Google Analytics 4, Google Ads, and Google Tag Manager.
+- Microsoft UET Consent Mode for Microsoft Ads.
+- IAB Europe Transparency & Consent Framework (TCF v2.2) for publishers and ad networks.
+- WP Consent API support — shares consent state with other consent-aware plugins.
+
+***Compatibility***
+
 - Compatible with all browsers, including Chrome, Firefox, Safari, Explorer & Edge.
+- Works with all the popular themes, including Divi, Elementor, and more.
 
-**Global Data Privacy Laws**
-Seers AI keeps your website compliant with 150+ Global data privacy laws, including:
+***Available Plugin Integrations***
+- Seamlessly integrates with local or other popular plugins like Gutenberg Google Analytics, Google Maps Widgets, WP Forms, WP Google Maps, Easy Digital Downloads, Contact Form 7, WPBakery, WooCommerce, Gravity Forms, Divi, Elementor, Foeminator, Beehive, GADWP, and many more.
+
+**Privacy Laws & Guidelines**
+
+Cookie compliance covers regional and sub-regional current and upcoming laws and regulations like:
+
 - General Data Protection Regulation (GDPR) - European Union
 - California Consumer Privacy Act (CCPA) - United States
 - California Privacy Rights Act (CPRA) - United States
 - Brazilian General Data Protection Law (LGPD) - Brazil
-- Data Use & Access Bill (DUA) - United Kingdom 
+- Personal Information Protection Law (PIPL) - China
+- Personal Data Protection Act (PDPA) - Singapore
+- Privacy Act 1988 - Australia
+- Data Protection Act 2018 - United Kingdom
+- Protection of Personal Information Act (POPIA) - South Africa
+- Personal Information Protection and Electronic Documents Act (PIPEDA) - Canada
+- ePrivacy Directive (EU Cookie Law) - European Union
+- Children's Online Privacy Protection Act (COPPA) - United States
+- Personal Data (Privacy) Ordinance - Hong Kong
+- Data Protection Law - United Arab Emirates
+- Act on the Protection of Personal Information (APPI) - Japan
+- New Zealand Privacy Act 2020 - New Zealand
+- Thailand Personal Data Protection Act (PDPA) - Thailand
+- Data Privacy Act of 2012 - Philippines
+- Indian Personal Data Protection Bill (Draft) - India
+- South Korean Personal Information Protection Act (PIPA) - South Korea
+- Mexican Federal Law on the Protection of Personal Data Held by Private Parties (LFPDPPP) - Mexico
+- Kenya Data Protection Act 2019 - Kenya
+- Law on Protection of Personal Data (LPPD) - Turkey
+- General Data Protection Law - Argentina
+- Swiss Federal Act on Data Protection (FADP) - Switzerland
+- Israel Protection of Privacy Law 5741-1981 - Israel
+- Colombian Data Protection Law (Law 1581 of 2012) - Colombia
+- Russian Federal Law on Personal Data - Russia
+- Data Privacy Law - Indonesia
+- Law on Cybersecurity - Vietnam
 
-**If you want more innovative features, you can visit [Seers AI Pricing Plan](https://seers.ai/price-plan) and choose the Premium package.** 
+**If you want more innovative features, You can visit [Seers AI Pricing Plan](https://seers.ai/price-plan) and choose the Premium package.**
 
-For support and queries, you may contact us at support@seersco.com 
+== PREMIUM FEATURES ==
 
-== Frequently Asked Questions ==
+**Frameworks and Advanced Features**
+-Comply with frameworks like Global Privacy Control, IAB TCF V2, Do Not Track
+-Google and Facebook Consent Mode
+-Child Privacy Consent Management
+-Compatible with qTranslate, Polylang, WPML, etc.
+-Manage multiple websites under one admin panel.
+-Geo target location allows to select in which region you want to show your banner.
+-Compatible with major caching plugins and servers such as WP Rocket, WP Engine, Bluehost, W3 Total Cache, SG Super Catcher, etc.
+-CCPA/ Do Not Sell banner
 
-= The Cookie Banner is not displaying?
+**Cookies Management**
+-Prior Consent. Cookies don’t fire until user consent. GDPR Article 5
+-Add new category of cookies
+-Manages Cookie Categories and list of cookies such as CookieID, Name, Description, Type, Category, Duration, and Header & Footer Script.
+-Cookie policy. Required by GDPR article 12
+-Automatically or manually scans and blocks scripts such as Google Analytics, Google Tag Manager, Pixel, Instagram, Facebook, etc.
+-Enables users to have granular control over website cookies and scripts.
+-Customise Cookie Policy generator 
+-Cookie declaration table including cookies purpose. PECR – Reg 6
+-Enables to display cookie banner settings popup where site visitors can consent to cookie categories.
 
-If your banner isn’t showing, please make sure:
+**Reports and Analytics**
+- Scan Unlimited Subpages
+- The consent analytics dashboard allows you to track visitors’ consents and adjust accordingly.
+- Consent Log Record user’s consent is required by GDPR Article 30
+- Top Class UK based Customer Support team
 
-1. After you have installed and activated the plugin from WordPress, you should also activate it through our wp plugin settings by providing your email address, agreeing to the terms and clicking the Activate button.
-2. Please be patient. It can take up to 24 hours for the complete scan of your website after activating the plugin.
-3. Check whether you have switched the banner toggle off in the plugin settings. (or unchecked the banner checkbox in the Seers AI Account Dashboard of cookie banner settings)
+**Customisation** 
+- Multiple Banner Layouts & Pre set Designs
+- Fully Customise buttons, styles, colours, and fonts resembling your website’s theme and style.
+- Displays the cookie banner in the header, and footer as a pop-up, or as a widget.
+- Multi-Lingual Banners, automatically translate all banner text strings allowing custom translations – 59 languages
+- Banner as seen on UK’s Information Commissioner’s Office website
+- Branding – Own logo
 
-We hope that you have successfully displayed the banner on your website after following the steps mentioned above.
+**Central Admin Panel**
+Seers AI is the only cookie solution provider which enables you to control unlimited websites from one admin panel. This flagship feature helps developers and owners to manage all tasks from a central dashboard.
 
-If you are still unable to see your banner or for any further assistance, please contact us at [support@seersco.com](mailto:support@seersco.com).
+**Cookie Database**
+Seers AI have a cookie database of over 750,000 cookies with its purposes. It synchronises the most recent description for cookies used in the cookie declaration table and cookie policy to fulfil the GDPR article 12 requirement.
 
-= This plugin blocks all the cookies?
-Yes, the plugin blocks all the cookies except the ones marked as necessary. If you haven’t switched prior consent ON, then all the cookies will be automatically stored until a user disables them. In the other case, when the prior consent is switched ON, all the cookies will be blocked until the user allows them. 
+**Cookie Notice**
+CookieNotice JS is a very simple and small JS script with multi-language support for GDPR/DSGVO‎ transparency and notification purposes that provides an easy way to show a cookie notice on your website. In this notice ‘we’ and ‘our’ means Seers AI which operates this platform.
 
-= Do this plugin provide full compliance with the law?
-No, as a cookie consent plugin, it is difficult to know anything about specific circumstances on your website. This plugin can help you in the overall compliance process, but can’t guarantee you full compliance with the GDPR, CCPA, LGPD and other regulations.
+**Translation**
+You can contribute to translate [GDPR & CCPA Cookie Consent | Seers AI](https://wordpress.org/plugins/seers-cookie-consent-banner-privacy-policy) on [translate.wordpress.org](https://translate.wordpress.org/projects/wp-plugins/seers-cookie-consent-banner-privacy-policy/) in your local language.
 
-If you are looking for a privacy expert related to your website, you can always visit [seers.ai](https://seers.ai) or contact us at [support@seersco.com](mailto:support@seersco.com).
+**Declaration**
+This plugin uses API to create your free account.
+Developing organisation: [Cookie Consent Plugin by Seers for WordPress](https://seerssupport.zendesk.com/hc/en-us/articles/11090546128412-Installing-Seers-Plugin-on-WordPress/)
+You can read our terms of use [here](https://seers.ai/terms-conditions/)
+You can read our privacy policy [here](https://seers.ai/privacy-policy/)
+We use "Powered by Seers AI" and place a Link to Seers AI on banner.
 
-= Is the Cookie Consent plugin by Seers AI a Free product?
-Cookie consent by Seers gives Standard features for free. 
+**Disclaimer**
+This plugin does not make your website compliant. You are still fully responsible for ensuring that all GDPR requirements and any local data protection regulations are met on your website.
 
-Upgrade to [Premium](https://seers.ai/price-plan) to get extra features.
+**Support**
+Seers AI is offering premium support, contact us on www.support@seersco.com. Before posting a new question, please browse the documentation and previous support threads.
 
-= Do I need to edit my current WordPress theme?
-No, Seers AI cookie consent is compatible with all WordPress themes.
+Please provide us clear and brief explanation of your issue and if you can provide any visuals like screenshot, image or video, this can be very helpful for us to resolve the issue promtly and we will get back to you as soon as possible.
 
-= Is our website’s data legally safe with Seers AI Cookie Consent?
-Yes, we do not record any personal or website data in Standard Packages.
+
+== FAQ ==
+Maybe there’s a lot of questions on your mind. See the FAQ on the main website and the setup guide for implementing the seers ai cookie consent plugin.
+
+= What is a consent management platform (CMP)?
+
+A CMP collects, stores and manages user consent for cookies and tracking. Seers is a CMP that simplifies GDPR cookie consent, CCPA cookie compliance and IAB TCF v2.2 signal exchange for WordPress sites.
+
+= What is a GDPR cookie consent plugin and why do I need one for WordPress?
+
+Under GDPR, ePrivacy and similar laws, websites must obtain prior, informed consent before storing non-essential cookies (analytics, marketing, advertising). A GDPR cookie consent plugin shows a cookie banner, blocks non-essential cookies until the visitor accepts, and stores proof of consent. Seers does all three for free.
+
+= How do I add a cookie consent banner to WordPress?
+
+Install the Seers Cookie Consent Banner plugin, activate it, enter your email to connect, and your cookie banner is live. Average setup time is under 5 minutes.
+
+= Does Seers support Google Consent Mode v2?
+
+Yes. Seers integrates with Google Consent Mode v2 in one click and is fully compatible with Google Analytics 4, Google Ads, and Google Tag Manager. Microsoft UET Consent Mode is also supported.
+
+= Is this plugin CCPA / CPRA compliant?
+
+Yes. Seers provides a 'Do Not Sell or Share My Personal Information' opt-out link and respects Global Privacy Control (GPC) signals for California residents under CCPA and CPRA.
+
+= How does the cookie scanner work?
+
+The built-in cookie scanner crawls your site and detects every first-party and third-party cookie, then categorises them as necessary, analytics, marketing or functional so visitors can opt in or out by category.
+
+= Does the plugin work with WooCommerce, Elementor and Divi?
+
+Yes. Seers is fully compatible with WooCommerce, Elementor, Divi, Beaver Builder, WPBakery, Gutenberg and Oxygen - no extra configuration needed.
 
 = We have more than ten websites. Can we manage under one account?
-Yes, you can add at least 10 domains to manage with our [Premium Packages](https://seers.ai/price-plan). You can [contact us](https://seers.ai/contact).
 
-= I have a different question?
-You can reach us at support@seersco.com
-For more FAQs, please visit [Cookie Knowledge Bank](https://seerssupport.zendesk.com/hc/en-us) and for any query, [contact us](https://seers.ai/contact).
+Yes, you can add maximum 10 domains by your own to manage with our [Premium Packages](https://seers.ai/price-plan). If you need more than 10 domains to be added, you may contact us here [contact us](https://seers.ai/contact).
 
-= Does Real Cookie Banner find all cookies on my website automatically?
-A cookie scanner could, but it will simply find cookies and will not be able to assess whether the personal data is being used legally. Furthermore, finding all cookies is quite complex, and most "cookie scanners" do not find all of them.
+= Can I export consent logs for audits?
 
-= When do I need a Cookie Notice?
-Seers AI GDPR/CCPA Cookie Consent will automatically decide this based on the regulations of the region or sub-regions from which the majority of your visitors come.
-In terms of the CCPA, you must always disclose which cookies you are using, but there is no obligation to ask for consent.
+Yes. Every consent action is logged and can be exported as CSV to demonstrate compliance during a GDPR or CCPA audit.
 
-= Does the Cookie Notice make my site fully compliant with GDPR?
-No, technical compliance capabilities such as automatic script blocking, consent purpose categories, and consent record storage are not available in the plugin-only version. Only the Cookie Compliance integration gives you access to these features.
+= Does this support multilingual websites?
+
+The cookie banner auto-translates into 28+ languages based on the visitor's browser, and works with WPML and Polylang.
+
+= Is this cookie consent plugin really free?
+
+Yes, the cookie consent banner, cookie scanner, Google Consent Mode v2 integration, multilingual translation, policy generators and consent log export are free for standard use. Paid plans only unlock multi-domain, A/B testing and enterprise features.
+
+= Does installing this plugin alone make my site GDPR compliant?
+
+It is a major step, but full compliance also requires documenting your data practices, updating your privacy policy, and configuring cookie categories accurately. Seers gives you all the tools needed; you remain responsible for the configuration.
 
 == Changelog ==
+
+VERSION 9.4.4
+• Tested on WordPress version 7.0.2
+
+VERSION 9.4.3
+• Updated the readme file content.
 
 VERSION 9.4.2
 • Tested on WordPress version 7.0.0
@@ -118,7 +252,7 @@ VERSION 9.4.0
 • Enabled registered plugin users to connect directly to the Seers dashboard
 
 VERSION 9.3.2
-• Small refinements to the pop-up user interface
+• Small refinements to the popup user interface
 
 VERSION 9.3.1
 • Popup Banner Styling fix
@@ -131,19 +265,19 @@ VERSION 9.2.1
 • Tested on WordPress version 6.8.1
 
 VERSION 9.2.0
-• Logo changed for Seers.ai
-• Update site URL to seers.ai
+• Logo changed of Seers.ai
+• Update site url to seers.ai
 • Tested on WordPress version 6.7.2
 
 VERSION 9.1.0
-• YouTube video changed with thumbnail
-• Fix pop-up not loadingin  some scenarios
+• Youtube video changed with thunbnail
+• Fix popup not loading some scenarios
 
 VERSION 9.0.4
 • Readme add License field
 
 VERSION 9.0.3
-• Readme file YouTube link changed
+• Readme file youtube link changed
 
 VERSION 9.0.2
 • Tested on WordPress version 6.6.2
@@ -153,7 +287,7 @@ VERSION 9.0.1
 • Seers logo fixed on backend UI
 
 VERSION 9.0.0
-• New user-friendly UI/UX in the backend implemented
+• New User Friendly UI/UX in backend implemented
 • Included new banners according to cmp.seeersco.com
 
 VERSION 8.1.5
@@ -163,16 +297,16 @@ VERSION 8.1.4
 • CSS changes on preferences popup
 
 VERSION 8.1.3
-• now using the capability of customize to allow you to update data ajax calls
+• now using capability of customize to allow your to update data ajax calls
 
 VERSION 8.1.2
-• On Ajax calls for the administrator, make sure the logged-in user is an administrator
+• on ajax calls for administrator make sure logged in user is administrator
 
 VERSION 8.1.1
-• Secure the Ajax calls by nonce
+• Secure the ajax calls by nonce
 
 VERSION 8.1.0
-• Fix in Cross-Site Request Forgery (CSRF) vulnerability
+• Fix in Cross Site Request Forgery (CSRF) vulnerability
 
 VERSION 8.0.6
 • Fix hiding banner on free users
@@ -184,12 +318,12 @@ VERSION 8.0.4
 • Minor fix on left and right banner positions in mobile view
 
 VERSION 8.0.3
-• Minor bug fixing in Privacy Policy save
+• Minor bugs fixing in Privacy Policy save
 • Banner Layout position top and modal
 
 VERSION 8.0.2
-• Minor bug fixing in Activate and Deactivate
-• Minor bugs on the home page loading again and again
+• Minor bugs fixing in Activate and Deactivate
+• Minor bugs on home page loading again and again
 
 VERSION 8.0.1
 • Minor bugs fixing in "Advance Features" tab
@@ -199,14 +333,14 @@ VERSION 8.0.0
 • Integrated the oAuth in APIs for security purpose
 
 VERSION 7.1.1
-• Fix in CSS of the button type stroke
+• Fix in CSS of button type stroke
 
 VERSION 7.1.0
 • admin panel setting UI/UX changes 
 
 VERSION 7.0.0
 • Change the script to cdn 
-• On the WP-Login, create an account, our plugin will merge all changes from seersco.com
+• on wp-login create account our plugin will merge first all changes from seersco.com
 • Backend style is changed
 
 VERSION 6.2.4
